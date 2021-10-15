@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anemia | Home</title>
+	<link rel="stylesheet" type="text/css" href="homepage.css"/>
+	<link rel="stylesheet" type="text/css" href="Header.css"/>
+	<meta charset="utf-8"/>
+	<base href="index.html"/>
+</head>
+<body>
+	<div class="border"></div>
+	<div id="hints"></div>
+	<div class="medictab">
+		
+			<h3>Healthcare for Anemia <p style="text-decoration:none;">Saving Lives | Protecting People | Sharing Knowledge</p></h3>
+			
+			<!--<form action="SearchResults.php" method="GET" autocomplete="off">
+				<input type="text" name="search" placeholder="Search Diseases..." size="30" onkeyup="showHints(this.value)"/>
+				<input type="submit" value="Search" />-->
+			</form>
+	</div>
+
+	
+	<div class="navigation" id="navigation">
+		<ul>
+			<li><a href="index.html" class="active">Home</a></li>
+			<li class="dropdown">
+				<!--<a href="quiz.html" class="dropbtn">Quizzes</a>
+				<div class="dropctn">
+					<a href="diseasequiz.html">Quiz on Diseases</a>
+					<a href="medicinequiz.html">Quiz on Medicines</a>
+				</div>
+			</li>-->
+			
+			<!--<li class="dropdown">
+				<a href="disease.html" class="dropbtn">Diseases</a>
+				<div class="dropctn">
+					<a href="adeno.html">Adenovirus Infection</a>
+					<a href="sleepsick.html">Sleeping Sickness</a>
+					<a href="arthritis.html">Arthritis</a>
+					<a href="disease.html">More...</a>
+				</div>
+			</li>-->
+			
+
+			<!--<li class="dropdown">
+				<a href="medicine.html" class="dropbtn">Medicines</a>
+				<div class="dropctn">
+					<a href="vitaminb12.html">Vitamin B12</a>
+					<a href="metform.html">Metformin</a>
+					<a href="analgesicss.html">Analgesics</a>
+					<a href="medicine.html">More...</a>				
+					</div>
+			</li>-->
+			
+			
+			<li><a href="sympcheck.html">Symptom Checker</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="about.html">About Us</a></li>
+
+		</ul>
+	</div>
+
+    <br/><br/><br/>
+    <div class="image">
+        <!-- ANIMATION ON HOME PAGE FOR IMAGES -->
+    </div>
+
+    <br/>
+
+    <!-- BMI CALCULATOR HERE -->
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  	<div class="modal-content">
+    
+    <span class="close">x</span><br><br/>
+    
+	Age:<br>
+	  <input type="text" name="age" id="age1" placeholder="Your age"  onblur="age_validate()"  onfocus="validate_age()" required><br><span id="p1"></span><br/>
+	Gender:<br>
+	  <input type="radio" name="gender" id="gen1" value="Male" >Male
+	  <input type="radio" name="gender" id="gen2" value="Female" >Female<br><span id="p2"></span><br/>
+	Height:<br>
+	  <input type="text" name="height" id="hei1" placeholder="Centimeters" onfocus="validate_height()" onblur="height_validate()" required><br><span id="p3"></span><br/>
+	Weight:<br>
+	  <input type="text" name="weight" id="wei1" placeholder="Kilogram" onfocus="validate_weight()" onblur="weight_validate()" required><br><span id="p4"></span><br/>
+	  <input type="submit" value="Calculate" onclick="return evalute()">
+	
+	<p>
+    <span id="output"></span><br>
+    <span id="comment"></span>
+  	</p>
+  	</div>
+
+	</div>
+
+
+
+	<div class="home">
+		<h2><ins>Welcome to Healthcare for Anemia!</ins></h2>
+		<!--<h4>Register with the World of Medicine and more...-</h4>-->
+	</div>
+
+
+
+    <div style="max-width: 100%; position: relative;">
+
+        <div id="asidel" style="max-width:640px; display: inline-block;">
+            <span>
+                <hr/>
+                	<h3 style="text-decoration: underline;">What is Anemia</h3>
+                	<p style="text-align: justify;">Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. Having anemia can make you feel tired and weak.
+
+						 Anemia can be temporary or long term. 
+						
+						 You might be able to prevent some types of anemia by... <br/>
+						<p><a href="Anemia.html">Read More..</a></p>
+					</p>
+					</p>
+
+    			<hr/>
+    				
+    				<h3 style="text-decoration: underline;">Body Mass Index (BMI)</h3>
+    				<p align="justify"> 
+    					Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.
+						It playes a vitol for an anemic person.<br/>	<ul>
+    						<li><p id="myBtn">Check my BMI</p></li>
+    					</ul>    				</p>
+    			<hr/>
+
+				<h3 style="text-decoration: underline;"> Feedback</h3>
+				<p align="justify"> 
+				
+
+						<p><a href="feedback.html">Do give us your feedback</a></p>
+
+
+    				<!--<h3 style="text-decoration: underline;">West Nile Virus</h3>
+    				<p align="justify">
+    					Dont let mosquitoes wreck your summer fun. Protect yourself and your family from mosquito bites.<br/>
+    					Summertime means mosquitoes and West Nile virus season. An infected mosquito bite can make you or a family member sick with West Nile virus. Stay healthy this summer.<br/> Take steps to avoid mosquito bites, especially in from evening to morning when the mosquitoes that spread West Nile virus are most active.
+    					
+    				</p>
+    		</span>-->
+     	</div>
+
+
+    	<div id="asider" style="margin-left:10px;max-width:660px; display:inline-block; float:right; overflow: auto;"> 
+    		<span>
+    			<hr/>
+    				<h3 style="text-decoration: underline;">Check Your Symptoms</h3>
+    				<p style="text-align: justify;">Healthcare for Anemia provieds you with an unique platform for checking your symptoms through our <a href="sympcheck.html">Symptom Checker</a> the disease.<br/>
+    				After symptom check, you will be able to know if your are anemic or not.</p>
+    			<hr/>
+    			
+    				<h3 style="text-decoration: underline">Most asked Question about Anemia</h3>
+    				<p align="justify">
+						<p> Q1. How does my body make red blood cells? </p>
+
+                      The red blood cells started out as stem cells that went through a growth process. There are hormones produced in the body that help stir-up this growth process. One of these hormones is erythropoietin.
+					 <p>Q2. Why do kidney disease patients have anemia?</p>
+
+					  Since erythropoietin is produced in the kidney, patients who have CKD may not produce enough.
+					  <p><a href="MAQ.html">Read More..</a></p>
+
+					  Ask your Question: <br/>
+			<textarea rows="8" cols="30" style="font-family: Helvetica; font-size: 14px;"></textarea>
+
+			<br/><br/>
+			<input type="submit" name="submit" value="Submit" onclick="return validate(this.form)" />&nbsp
+			<input type="reset" name="Reset" value="Clear All" onclick="return resetValues()" />
+
+    				
+					  <br/>
+
+    				</p>
+    			<hr/>
+    			<!--	<h3 style="text-decoration: underline;">More...</h3>
+    				<p align="justify">
+    					<ul>
+    						<li><a href="interesting_facts.html">Interesting Facts !</a></li>
+    						<li><p id="myBtn">Calculate BMI</p></li>
+    					</ul>
+    				</p>
+    		</span>-->
+    	</div> 
+
+	</div>
+
+	<br/>
+	<div id="footer">
+		<p style="text-align: center; font-size: 11px;">Thank you for visiting</p>
+		<p style="text-align: center;">Healthcare for Anemia</p>
+		<p style="font-size: 11px; text-align: center;"><abbr title="">Visit Again | Stay Healthy | <a href="feedback.html" style="font-size: 11px;">FeedBack</a></p>
+		<hr/>
+			<!--<p style="color: #DCFFFE; margin-left: 10px; font-size: 19px;">Maintained By: -
+			<ul id="credits">
+				<li>Kunal</li>
+				<li>Kanishk</li>
+				<li>Siddharth</li>
+			</ul>
+				<span id="footright1">Submitted To:-</span>
+				<span id="footright2">Dr. G. Malathi</span>
+			</p>
+	</div>-->
+
+	<script src="bmi.js"></script>
+
+
+
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+ :root{
+       --color-1:rgb(212, 235, 242); 
+ 
+      --color-2:4B4B71; 
+      --color-3:rgb(255, 255, 255); 
+  }
+  .body
+  {
+      margin: 0px;
+      padding: 0px;
+  }
+  .timer
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #name,#Result
+ {
+      font-size: 3rem;
+      color: rgb(196, 16, 85);
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: 12;
+ }
+
+ #Result11
+ {
+      font-size: 1rem;
+      color: rgb(14, 8, 71);
+      font-weight: italic;
+      justify-content: left;
+      align-items: center;
+      display: flex;
+      margin: 12;
+ }
+
+ .Startbtn
+ {
+      background-color:rgb(121, 61, 139) ;
+      border-radius: 30px;
+      width: 180px;
+      height: 45px;
+      font-family: Roboto;
+      color:var(--color-3);
+      font-size: 25px;
+      outline: none;
+
+ }
+ .Startbtn:hover
+ {
+      background-color:#f34f93;
+ }
+ .col-sm.r 
+ {
+     margin: 0;
+     padding: 0;
+     background-color: var(--color-1);
+     background-repeat: no-repeat;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     height: 100vh;
+ }
+.row
+{
+     height: 100vh;
+}
+#link,#image
+{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: 15;
+}
+.col-sm.r2
+{
+     margin: 0;
+     padding: 0;
+     background-color: var(--color-3);
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     height: 100vh;
+}
+p
+{
+     display: contents;
+}
+#instr
+{
+      color:BLACK;
+      font-weight: bold;
+      font-size: 2rem;
+      display: flex;
+}
+#InstructionsHead
+{
+      color:rgb(196, 16, 85);
+      font-weight: bold;
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 35;
+
+}
+.btn
+{
+      width: 280;
+      height: 40;
+      left: 50.27px;
+      justify-content: center;
+      align-content: center;
+      border: 1px solid #460897;
+      box-sizing: border-box;
+      border-radius: 20px;
+      margin: 10;
+      outline: none;
+}
+.btn:hover 
+{
+      background-color:rgb(128, 3, 76) ;
+      color: var(--color-3);
+      text-decoration: none;
+      outline: none;
+}
+.option1
+{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      outline: none;
+}
+.InstructionDiv
+{
+      margin-bottom: 40;
+}
+#que
+{
+      font-size: 30;
+}
+#QuestionNo
+{
+      font-size: 20;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+}

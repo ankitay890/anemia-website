@@ -1,0 +1,104 @@
+{
+	
+	"q1": {
+		"question": "Anemia is a common condition. What happens when a person has anemia?",
+		"options": [
+			"The body produces too much iron",
+			"The blood doesn't have enough RBC",
+			"The blood becomes thick",
+			"Too many white blood cells are produced"
+			
+		],
+				"answer": "The blood does not have enough red blood cells"
+	},
+	"q2": {
+		"question": "What is the most common cause of anemia?",
+		"options": [
+			"Too little sleep",
+			"Too much sugar",
+			"Too little iron in the blood",
+			"Exposure to X-ray radiation"
+			
+		],
+		"answer": "Too little iron in the blood"
+	},
+
+	
+	"q3": {
+		"question": "Which of these groups is the most likely to have anemia?",
+		"options": [
+			"Men",
+			"Women",
+			"Teenagers",
+			"Older adults"
+			
+		],
+		"answer": 	"Women"
+
+
+
+	},
+	"q4": {
+		"question": "How does anemia affect the body?",
+		"options": [
+			"The body dosen't get enough O2",
+			"Blood becomes thin",
+			"Tissues retain fluids",
+			"None of the above"
+			
+		],
+		"answer": "The body dosen't get enough O2"
+	},
+	"q5": {
+		"question": "A lack of which of these will result in abnormally large red blood cells and a condition called megaloblastic anemia?",
+		"options": [
+			"Oxygen",
+			"Vitamin C",
+			"Vitamin B-12 and folic acid",
+			"Carbon dioxide"
+			
+		],
+		"answer": "Vitamin B-12 and folic acid"
+	},
+	"q6": {
+		"question": "Which of these are signs of anemia?",
+		"options": [
+			"Pale gums",
+			"Dark circles under the eyes",
+			"Bleeding",
+			"Numbness in hands and feet"
+			
+		],
+		"answer": "Pale gums"
+	},	"q7": {
+		"question": "How does iron-deficiency anemia affect teenagers?",
+		"options": [
+			"More trouble with written expression",
+			"Can't concentrate",
+			"Aggravates hyperactivity",
+			"A and B"
+			
+		],
+		"answer": "A and B"
+	},"q8": {
+		"question": "Iron-deficiency anemia can cause pica, a rare condition in which a person craves eating nonfood items. Which of these would he or she eat?",
+		"options": [
+			"Ice",
+			"Soil",
+			"Clay",
+			"Any of the above"
+			
+		],
+		"answer": "Any of the above"
+	},	"q9": {
+		"question": "Anemia can contribute to which of these among older adults?",
+		"options": [
+			"More falls",
+			"High blood pressure",
+			"Diminished eyesight",
+			"Diabetes"
+			
+		],
+		"answer": "More falls"
+	}
+}

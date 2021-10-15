@@ -1,0 +1,86 @@
+{
+	
+	"q1": {
+		"question": "How often do you feel Fatigue?",
+		"options": [
+			"Most of the time",
+			"Not very often/ Rarely"
+			
+		],
+				"answer": "Most of the time"
+	},
+	"q2": {
+		"question": "Do you often feel weak during the day?",
+		"options": [
+			"Yes, I fell weak most the day",
+			"No, I am energetic during the day"
+			
+		],
+		"answer": "Yes, I fell weak most the day"
+	},
+
+	
+	"q3": {
+		"question": "Is your skin turning pale and yellowish? ",
+		"options": [
+			"Yes it is changing colour",
+			"No my skin is not chnaging colour"
+			
+		],
+		"answer": 	"Yes it is changing colour"
+
+
+
+	},
+	"q4": {
+		"question": "How often do you experience irregular heartbeats?",
+		"options": [
+			"Sometimes i exeprience it",
+			"I dont exeprience ireegular heart beats"
+			
+		],
+		"answer": "Sometimes i exeprience it"
+	},
+	"q5": {
+		"question": "Do you experience shortness of breath?",
+		"options": [
+			"Yes, oftenty",
+			"Only during some phisical activity"
+			
+		],
+		"answer": "Yes, oftenty"
+	},
+	"q6": {
+		"question": "Do you feel dizzyness or lightheadedness?",
+		"options": [
+			"Yes",
+			"No"
+			
+		],
+		"answer": "Yes"
+	},	"q7": {
+		"question": "Do you experience chest pain?",
+		"options": [
+			"I feel it realry",
+			"Not at all"
+			
+		],
+		"answer": "I feel it realry"
+	},"q8": {
+		"question": "Does your hands and feet get cold occasionally?",
+		"options": [
+			"Yes, it does",
+			"No, it dosent"
+			
+		],
+		"answer": "Yes, it does"
+	},	"q9": {
+		"question": "How often do you get headaches?",
+		"options": [
+			"It is very often",
+			"Not very often"
+			
+		],
+		"answer": "It is very often"
+	}
+}
